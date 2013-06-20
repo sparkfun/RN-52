@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.2">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -79,6 +79,8 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
@@ -124,137 +126,140 @@ We've spent an enormous amount of time creating and checking these footprints an
 &lt;br&gt;&lt;br&gt;
 &lt;b&gt;Licensing:&lt;/b&gt; CC v3.0 Share-Alike You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
 <packages>
-<package name="RN52">
-<wire x1="6.8" y1="-10.4" x2="6.8" y2="15.6" width="0.127" layer="51"/>
-<wire x1="6.8" y1="15.6" x2="-6.8" y2="15.6" width="0.127" layer="51"/>
-<wire x1="-6.8" y1="15.6" x2="-6.8" y2="-10.4" width="0.127" layer="51"/>
-<wire x1="-6.8" y1="-10.4" x2="6.8" y2="-10.4" width="0.127" layer="51"/>
-<wire x1="-6.8" y1="15.6" x2="-5.8" y2="15.6" width="0.2032" layer="21"/>
-<wire x1="-6.8" y1="15.6" x2="-6.8" y2="14.6" width="0.2032" layer="21"/>
-<wire x1="6.8" y1="15.6" x2="5.8" y2="15.6" width="0.2032" layer="21"/>
-<wire x1="6.8" y1="15.6" x2="6.8" y2="14.6" width="0.2032" layer="21"/>
-<smd name="16" x="-6.6" y="-8.4" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="15" x="-6.6" y="-7.2" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="14" x="-6.6" y="-6" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="13" x="-6.6" y="-4.8" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="12" x="-6.6" y="-3.6" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="11" x="-6.6" y="-2.4" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="10" x="-6.6" y="-1.2" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="9" x="-6.6" y="0" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="8" x="-6.6" y="1.2" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="7" x="-6.6" y="2.4" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="6" x="-6.6" y="3.6" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="5" x="-6.6" y="4.8" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="4" x="-6.6" y="6" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="3" x="-6.6" y="7.2" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="2" x="-6.6" y="8.4" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="1" x="-6.6" y="9.6" dx="1.2" dy="0.8" layer="1" roundness="50"/>
-<smd name="G2" x="-6.1" y="-10" dx="2.2" dy="1.6" layer="1" roundness="50"/>
-<smd name="17" x="-4.2" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="18" x="-3" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="19" x="-1.8" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="20" x="-0.6" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="RFG1" x="-3.5" y="10.3" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="RFG2" x="-2.1" y="10.3" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="RFG3" x="-0.7" y="10.3" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="G1" x="-5.9" y="10.8" dx="2.6" dy="0.8" layer="1" roundness="90"/>
-<smd name="25" x="6.6" y="-8.4" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="26" x="6.6" y="-7.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="27" x="6.6" y="-6" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="28" x="6.6" y="-4.8" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="29" x="6.6" y="-3.6" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="30" x="6.6" y="-2.4" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="31" x="6.6" y="-1.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="32" x="6.6" y="0" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="33" x="6.6" y="1.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="34" x="6.6" y="2.4" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="35" x="6.6" y="3.6" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="36" x="6.6" y="4.8" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="37" x="6.6" y="6" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="38" x="6.6" y="7.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="39" x="6.6" y="8.4" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="40" x="6.6" y="9.6" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R180"/>
-<smd name="G3" x="6.1" y="-10" dx="2.2" dy="1.6" layer="1" roundness="50" rot="R180"/>
-<smd name="24" x="4.2" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="23" x="3" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="22" x="1.8" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="21" x="0.6" y="-10.2" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="RFG6" x="3.5" y="10.3" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="RFG5" x="2.1" y="10.3" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="RFG4" x="0.7" y="10.3" dx="1.2" dy="0.8" layer="1" roundness="50" rot="R90"/>
-<smd name="G4" x="5.9" y="10.8" dx="2.6" dy="0.8" layer="1" roundness="91" rot="R180"/>
-<wire x1="-6.8" y1="-10.4" x2="6.8" y2="-10.4" width="0.127" layer="21"/>
-<wire x1="6.8" y1="-10.4" x2="6.8" y2="11.1" width="0.127" layer="21"/>
-<wire x1="-6.8" y1="-10.4" x2="-6.8" y2="11.1" width="0.127" layer="21"/>
+<package name="RN-52">
+<wire x1="6.8" y1="-11.67" x2="6.8" y2="14.33" width="0.127" layer="51"/>
+<wire x1="6.8" y1="14.33" x2="-6.8" y2="14.33" width="0.127" layer="51"/>
+<wire x1="-6.8" y1="14.33" x2="-6.8" y2="-11.67" width="0.127" layer="51"/>
+<wire x1="-6.8" y1="-11.67" x2="6.8" y2="-11.67" width="0.127" layer="51"/>
+<wire x1="-6.8" y1="14.33" x2="-5.8" y2="14.33" width="0.2032" layer="21"/>
+<wire x1="-6.8" y1="14.33" x2="-6.8" y2="13.33" width="0.2032" layer="21"/>
+<wire x1="6.8" y1="14.33" x2="5.8" y2="14.33" width="0.2032" layer="21"/>
+<wire x1="6.8" y1="14.33" x2="6.8" y2="13.33" width="0.2032" layer="21"/>
+<wire x1="6.8" y1="-11.67" x2="6.8" y2="9.83" width="0.127" layer="21"/>
+<wire x1="-6.8" y1="-11.67" x2="-6.8" y2="9.83" width="0.127" layer="21"/>
+<smd name="1" x="-6.6" y="8.33" dx="1.2" dy="0.8" layer="1"/>
+<smd name="2" x="-6.6" y="7.13" dx="1.2" dy="0.8" layer="1"/>
+<smd name="3" x="-6.6" y="5.93" dx="1.2" dy="0.8" layer="1"/>
+<smd name="4" x="-6.6" y="4.73" dx="1.2" dy="0.8" layer="1"/>
+<smd name="5" x="-6.6" y="3.53" dx="1.2" dy="0.8" layer="1"/>
+<smd name="6" x="-6.6" y="2.33" dx="1.2" dy="0.8" layer="1"/>
+<smd name="7" x="-6.6" y="1.13" dx="1.2" dy="0.8" layer="1"/>
+<smd name="8" x="-6.6" y="-0.07" dx="1.2" dy="0.8" layer="1"/>
+<smd name="9" x="-6.6" y="-1.27" dx="1.2" dy="0.8" layer="1"/>
+<smd name="10" x="-6.6" y="-2.47" dx="1.2" dy="0.8" layer="1"/>
+<smd name="11" x="-6.6" y="-3.67" dx="1.2" dy="0.8" layer="1"/>
+<smd name="12" x="-6.6" y="-4.87" dx="1.2" dy="0.8" layer="1"/>
+<smd name="13" x="-6.6" y="-6.07" dx="1.2" dy="0.8" layer="1"/>
+<smd name="14" x="-6.6" y="-7.27" dx="1.2" dy="0.8" layer="1"/>
+<smd name="15" x="-6.6" y="-8.47" dx="1.2" dy="0.8" layer="1"/>
+<smd name="16" x="-6.6" y="-9.67" dx="1.2" dy="0.8" layer="1"/>
+<smd name="17" x="-4.2" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="18" x="-3" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="19" x="-1.8" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="20" x="-0.6" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="21" x="0.6" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="22" x="1.8" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="23" x="3" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="24" x="4.2" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="25" x="6.6" y="-9.67" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="26" x="6.6" y="-8.47" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="27" x="6.6" y="-7.27" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="28" x="6.6" y="-6.07" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="29" x="6.6" y="-4.87" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="30" x="6.6" y="-3.67" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="31" x="6.6" y="-2.47" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="32" x="6.6" y="-1.27" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="33" x="6.6" y="-0.07" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="34" x="6.6" y="1.13" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="35" x="6.6" y="2.33" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="36" x="6.6" y="3.53" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="37" x="6.6" y="4.73" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="38" x="6.6" y="5.93" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="39" x="6.6" y="7.13" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="40" x="6.6" y="8.33" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="G1" x="-6.6" y="9.53" dx="1.2" dy="0.8" layer="1"/>
+<smd name="G2" x="-5.9" y="-11.47" dx="1.2" dy="0.8" layer="1" rot="R90"/>
+<smd name="G3" x="5.9" y="-11.46" dx="0.8" dy="1.2" layer="1" rot="R180"/>
+<smd name="G4" x="6.6" y="9.53" dx="1.2" dy="0.8" layer="1" rot="R180"/>
+<smd name="RFG1" x="-3.5" y="9.03" dx="1.2" dy="0.8" layer="1" roundness="75" rot="R90"/>
+<smd name="RFG2" x="-2.1" y="9.03" dx="1.2" dy="0.8" layer="1" roundness="75" rot="R90"/>
+<smd name="RFG3" x="-0.7" y="9.03" dx="1.2" dy="0.8" layer="1" roundness="75" rot="R90"/>
+<smd name="RFG4" x="0.7" y="9.03" dx="1.2" dy="0.8" layer="1" roundness="75" rot="R90"/>
+<smd name="RFG5" x="2.1" y="9.03" dx="1.2" dy="0.8" layer="1" roundness="75" rot="R90"/>
+<smd name="RFG6" x="3.5" y="9.03" dx="1.2" dy="0.8" layer="1" roundness="75" rot="R90"/>
+<wire x1="6.7972" y1="-11.6714" x2="6.7972" y2="14.3286" width="0.127" layer="51"/>
+<wire x1="6.7972" y1="14.3286" x2="-6.8028" y2="14.3286" width="0.127" layer="51"/>
+<wire x1="-6.8028" y1="14.3286" x2="-6.8028" y2="-11.6714" width="0.127" layer="51"/>
+<wire x1="-6.8028" y1="-11.6714" x2="6.7972" y2="-11.6714" width="0.127" layer="51"/>
 </package>
 </packages>
 <symbols>
-<symbol name="RN52">
+<symbol name="RN-52">
 <wire x1="-17.78" y1="-43.18" x2="17.78" y2="-43.18" width="0.254" layer="94"/>
 <wire x1="17.78" y1="-43.18" x2="17.78" y2="40.64" width="0.254" layer="94"/>
 <wire x1="17.78" y1="40.64" x2="-17.78" y2="40.64" width="0.254" layer="94"/>
 <wire x1="-17.78" y1="40.64" x2="-17.78" y2="-43.18" width="0.254" layer="94"/>
-<text x="-17.78" y="41.148" size="1.778" layer="95">&gt;NAME</text>
-<text x="-17.78" y="-45.72" size="1.778" layer="95">&gt;VALUE</text>
-<pin name="GND" x="22.86" y="-25.4" length="middle" rot="R180"/>
-<pin name="SPI_MOSI" x="22.86" y="0" length="middle" rot="R180"/>
-<pin name="GPIO12" x="-22.86" y="12.7" length="middle"/>
-<pin name="GPIO5" x="-22.86" y="15.24" length="middle"/>
-<pin name="MIC_BIAS" x="22.86" y="12.7" length="middle" rot="R180"/>
-<pin name="SPI_CLK" x="22.86" y="-2.54" length="middle" rot="R180"/>
-<pin name="MIC_L+" x="22.86" y="15.24" length="middle" rot="R180"/>
-<pin name="MIC_R-" x="22.86" y="22.86" length="middle" rot="R180"/>
-<pin name="MIC_R+" x="22.86" y="17.78" length="middle" rot="R180"/>
-<pin name="MIC_L-" x="22.86" y="20.32" length="middle" rot="R180"/>
-<pin name="LED1" x="22.86" y="5.08" length="middle" rot="R180"/>
-<pin name="GND1" x="22.86" y="-27.94" length="middle" rot="R180"/>
-<pin name="UART_RX" x="-22.86" y="-22.86" length="middle"/>
-<pin name="UART_TX" x="-22.86" y="-20.32" length="middle"/>
-<pin name="UART_RTS" x="-22.86" y="-15.24" length="middle"/>
-<pin name="UART_CTS" x="-22.86" y="-17.78" length="middle"/>
-<pin name="USBD+" x="-22.86" y="-10.16" length="middle"/>
-<pin name="USBD-" x="-22.86" y="-7.62" length="middle"/>
-<pin name="GPIO9" x="-22.86" y="2.54" length="middle"/>
-<pin name="GPIO10" x="-22.86" y="5.08" length="middle"/>
-<pin name="GPIO13" x="-22.86" y="10.16" length="middle"/>
-<pin name="GPIO11" x="-22.86" y="7.62" length="middle"/>
-<pin name="SPI_SS" x="22.86" y="-7.62" length="middle" rot="R180"/>
-<pin name="SPI_MISO" x="22.86" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND2" x="22.86" y="-30.48" length="middle" rot="R180"/>
-<pin name="LED0" x="22.86" y="7.62" length="middle" rot="R180"/>
-<pin name="GND3" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="AGND" x="-22.86" y="-38.1" length="middle"/>
 <pin name="AIC0" x="-22.86" y="20.32" length="middle"/>
+<pin name="GND" x="22.86" y="-25.4" length="middle" rot="R180"/>
+<pin name="GND1" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="GND2" x="22.86" y="-30.48" length="middle" rot="R180"/>
+<pin name="GND3" x="22.86" y="-33.02" length="middle" rot="R180"/>
 <pin name="GND4" x="22.86" y="-35.56" length="middle" rot="R180"/>
-<pin name="GPIO4" x="-22.86" y="17.78" length="middle"/>
-<pin name="GPIO2" x="-22.86" y="22.86" length="middle"/>
-<pin name="GPIO3" x="-22.86" y="25.4" length="middle"/>
-<pin name="SPKR_L+" x="22.86" y="35.56" length="middle" rot="R180"/>
-<pin name="SPKR_R+" x="22.86" y="33.02" length="middle" rot="R180"/>
 <pin name="GND5" x="22.86" y="-38.1" length="middle" rot="R180"/>
 <pin name="GND6" x="-22.86" y="-27.94" length="middle"/>
 <pin name="GND7" x="-22.86" y="-30.48" length="middle"/>
 <pin name="GND8" x="-22.86" y="-33.02" length="middle"/>
 <pin name="GND9" x="-22.86" y="-35.56" length="middle"/>
-<pin name="AGND" x="-22.86" y="-38.1" length="middle"/>
-<pin name="SPKR_R-" x="22.86" y="27.94" length="middle" rot="R180"/>
-<pin name="SPKR_L-" x="22.86" y="30.48" length="middle" rot="R180"/>
-<pin name="VDD" x="-22.86" y="35.56" length="middle"/>
-<pin name="PWREN" x="-22.86" y="30.48" length="middle"/>
-<pin name="GPIO7" x="-22.86" y="0" length="middle"/>
+<pin name="GPIO2" x="-22.86" y="22.86" length="middle"/>
+<pin name="GPIO3" x="-22.86" y="25.4" length="middle"/>
+<pin name="GPIO4" x="-22.86" y="17.78" length="middle"/>
+<pin name="GPIO5" x="-22.86" y="15.24" length="middle"/>
 <pin name="GPIO6" x="-22.86" y="-2.54" length="middle"/>
+<pin name="GPIO7" x="-22.86" y="0" length="middle"/>
+<pin name="GPIO9" x="-22.86" y="2.54" length="middle"/>
+<pin name="GPIO10" x="-22.86" y="5.08" length="middle"/>
+<pin name="GPIO11" x="-22.86" y="7.62" length="middle"/>
+<pin name="GPIO12" x="-22.86" y="12.7" length="middle"/>
+<pin name="GPIO13" x="-22.86" y="10.16" length="middle"/>
+<pin name="LED0" x="22.86" y="7.62" length="middle" rot="R180"/>
+<pin name="LED1" x="22.86" y="5.08" length="middle" rot="R180"/>
+<pin name="MIC_BIAS" x="22.86" y="12.7" length="middle" rot="R180"/>
+<pin name="MIC_L+" x="22.86" y="15.24" length="middle" rot="R180"/>
+<pin name="MIC_L-" x="22.86" y="20.32" length="middle" rot="R180"/>
+<pin name="MIC_R+" x="22.86" y="17.78" length="middle" rot="R180"/>
+<pin name="MIC_R-" x="22.86" y="22.86" length="middle" rot="R180"/>
+<pin name="PCM_CLK" x="22.86" y="-20.32" length="middle" rot="R180"/>
 <pin name="PCM_IN" x="22.86" y="-12.7" length="middle" rot="R180"/>
 <pin name="PCM_OUT" x="22.86" y="-15.24" length="middle" rot="R180"/>
-<pin name="PCM_CLK" x="22.86" y="-20.32" length="middle" rot="R180"/>
 <pin name="PCM_SYNC" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="PWREN" x="-22.86" y="30.48" length="middle"/>
+<pin name="SPI_CLK" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="SPI_MISO" x="22.86" y="-5.08" length="middle" rot="R180"/>
+<pin name="SPI_MOSI" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="SPI_SS" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="SPKR_L+" x="22.86" y="35.56" length="middle" rot="R180"/>
+<pin name="SPKR_L-" x="22.86" y="30.48" length="middle" rot="R180"/>
+<pin name="SPKR_R+" x="22.86" y="33.02" length="middle" rot="R180"/>
+<pin name="SPKR_R-" x="22.86" y="27.94" length="middle" rot="R180"/>
+<pin name="UART_CTS" x="-22.86" y="-17.78" length="middle"/>
+<pin name="UART_RTS" x="-22.86" y="-15.24" length="middle"/>
+<pin name="UART_RX" x="-22.86" y="-22.86" length="middle"/>
+<pin name="UART_TX" x="-22.86" y="-20.32" length="middle"/>
+<pin name="USBD+" x="-22.86" y="-10.16" length="middle"/>
+<pin name="USBD-" x="-22.86" y="-7.62" length="middle"/>
+<pin name="VDD" x="-22.86" y="35.56" length="middle"/>
+<text x="-17.78" y="41.148" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-45.72" size="1.778" layer="95">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="BLUETOOTH-RN-52">
 <gates>
-<gate name="G$1" symbol="RN52" x="0" y="0"/>
+<gate name="G$1" symbol="RN-52" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RN52">
+<device name="" package="RN-52">
 <connects>
 <connect gate="G$1" pin="AGND" pad="36"/>
 <connect gate="G$1" pin="AIC0" pad="3"/>
@@ -6403,24 +6408,6 @@ chip</description>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 <rectangle x1="-0.2286" y1="-0.381" x2="0.2286" y2="0.381" layer="21"/>
 </package>
-<package name="0402-RES">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-chip</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
-<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
-<text x="-0.889" y="0.6985" size="0.4064" layer="25">&gt;NAME</text>
-<text x="-1.0795" y="-1.143" size="0.4064" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-<rectangle x1="-0.2032" y1="-0.3556" x2="0.2032" y2="0.3556" layer="21"/>
-</package>
 <package name="1/6W-RES">
 <description>1/6W Thru-hole Resistor - *UNPROVEN*</description>
 <wire x1="-1.55" y1="0.85" x2="-1.55" y2="-0.85" width="0.2032" layer="21"/>
@@ -6629,7 +6616,7 @@ Basic schematic elements and footprints for 0603, 1206, and PTH resistors.</desc
 <technology name=""/>
 </technologies>
 </device>
-<device name="0402-RES" package="0402-RES">
+<device name="0603" package="0603-RES">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
