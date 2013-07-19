@@ -79,8 +79,8 @@
 <layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
 <layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -206,6 +206,7 @@
 <text x="32.512" y="5.715" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_SYNC</text>
 <text x="32.512" y="3.175" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_CK</text>
 <text x="32.512" y="0.635" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
+<text x="20.32" y="48.26" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
 </plain>
 <libraries>
 <library name="SparkFun-RF">

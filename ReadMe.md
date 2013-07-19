@@ -1,0 +1,1 @@
+This is a breakout board for the Roving Networks RN-52 Audio Bluetooth module. 

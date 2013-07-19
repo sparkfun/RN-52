@@ -6787,7 +6787,8 @@ This is the mechanical footprint for a #4 phillips button head screw. Use the ke
 <sheets>
 <sheet>
 <plain>
-<text x="166.624" y="11.684" size="1.778" layer="91">Joel B</text>
+<text x="166.624" y="9.144" size="5.08" layer="96">Joel B</text>
+<text x="238.76" y="7.62" size="2.54" layer="96">V10</text>
 </plain>
 <instances>
 <instance part="U1" gate="G$1" x="124.46" y="119.38"/>
