@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2999,6 +2999,46 @@
 <wire x1="164.846" y1="250.444" x2="164.846" y2="244.094" width="0.2032" layer="20"/>
 <wire x1="308.61" y1="250.444" x2="164.846" y2="250.444" width="0.2032" layer="20"/>
 <wire x1="308.61" y1="244.094" x2="308.61" y2="250.444" width="0.2032" layer="20"/>
+<text x="13.97" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="36.83" y="241.3" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="64.77" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="90.17" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="119.38" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="176.53" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="199.39" y="241.3" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="227.33" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="252.73" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="281.94" y="240.03" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="172.72" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="195.58" y="185.42" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="223.52" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="248.92" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="278.13" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="13.97" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="36.83" y="185.42" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="64.77" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="90.17" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="119.38" y="184.15" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="15.24" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="38.1" y="116.84" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="66.04" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="91.44" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="120.65" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="176.53" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="199.39" y="116.84" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="227.33" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="252.73" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="281.94" y="115.57" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="22.86" y="58.42" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="45.72" y="59.69" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="73.66" y="58.42" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="99.06" y="58.42" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="128.27" y="58.42" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="177.8" y="59.69" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="200.66" y="60.96" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="228.6" y="59.69" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="254" y="59.69" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
+<text x="283.21" y="59.69" size="1.778" layer="20" font="vector" ratio="7">ROUTE OUT</text>
 </plain>
 <libraries>
 <library name="SparkFun-RF">
