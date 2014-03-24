@@ -154,10 +154,10 @@
 <text x="25.019" y="18.415" size="1.27" layer="21" font="vector" ratio="15">SPI_CLK</text>
 <text x="24.257" y="15.875" size="1.27" layer="21" font="vector" ratio="15">SPI_MISO</text>
 <text x="26.162" y="13.335" size="1.27" layer="21" font="vector" ratio="15">SPI_SS</text>
-<text x="26.162" y="10.795" size="1.27" layer="21" font="vector" ratio="15">PCM_IN</text>
-<text x="24.638" y="8.255" size="1.27" layer="21" font="vector" ratio="15">PCM_OUT</text>
-<text x="23.368" y="5.715" size="1.27" layer="21" font="vector" ratio="15">PCM_SYNC</text>
-<text x="25.781" y="3.175" size="1.27" layer="21" font="vector" ratio="15">PCM_CK</text>
+<text x="26.162" y="3.175" size="1.27" layer="21" font="vector" ratio="15">PCM_IN</text>
+<text x="24.638" y="5.715" size="1.27" layer="21" font="vector" ratio="15">PCM_OUT</text>
+<text x="23.368" y="8.255" size="1.27" layer="21" font="vector" ratio="15">PCM_SYNC</text>
+<text x="24.511" y="10.795" size="1.27" layer="21" font="vector" ratio="15">PCM_CLK</text>
 <text x="29.21" y="0.635" size="1.27" layer="21" font="vector" ratio="15">GND</text>
 <wire x1="0" y1="51.054" x2="35.56" y2="51.054" width="0.254" layer="20"/>
 <wire x1="35.56" y1="51.054" x2="35.56" y2="0" width="0.254" layer="20"/>
@@ -201,10 +201,10 @@
 <text x="32.512" y="18.415" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">SPI_CLK</text>
 <text x="32.512" y="15.875" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">SPI_MISO</text>
 <text x="32.512" y="13.335" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">SPI_SS</text>
-<text x="32.512" y="10.795" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_IN</text>
-<text x="32.512" y="8.255" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_OUT</text>
-<text x="32.512" y="5.715" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_SYNC</text>
-<text x="32.512" y="3.175" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_CK</text>
+<text x="32.512" y="3.175" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_IN</text>
+<text x="32.512" y="5.715" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_OUT</text>
+<text x="32.512" y="8.255" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_SYNC</text>
+<text x="32.512" y="10.795" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_CLK</text>
 <text x="32.512" y="0.635" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
 <text x="20.32" y="48.26" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
 </plain>
