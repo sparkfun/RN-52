@@ -206,7 +206,7 @@
 <text x="32.512" y="8.255" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_SYNC</text>
 <text x="32.512" y="10.795" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">PCM_CLK</text>
 <text x="32.512" y="0.635" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
-<text x="20.32" y="48.26" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V10</text>
+<text x="20.32" y="48.26" size="1.778" layer="16" font="vector" ratio="15" rot="MR0">V_11</text>
 </plain>
 <libraries>
 <library name="SparkFun-RF">
